@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<head>
+<html>
+<head>
+<style>
+body {
+  background-image: url('https://img.freepik.com/free-vector/abstract-technological-background_23-2148897676.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+<html lang="en">
+<head>
+<title>CYBERNEWS.COM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="w3-container w3-">
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-purple w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64" ><b>CYBERNEWS<br>MÁS ALLÁ DEL CÓDIGO </b></h3> 
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover white">Home</a>
+    <a href="#¿Sabías que?" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">¿Sabías que?</a> 
+    <a href="#¿Qué es la ética informática?" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">¿Qué es la ética informática?</a> 
+    <a href="#Objetivos" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Objetivos</a> 
+    <a href="#Los diez mandamientos" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Los diez mandamientos</a> 
+    <a href="#Ventajas" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Ventajas</a>
+    <a href="#Desventajas" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Desventajas</a>
+    <a href="#¿Qué problemas trata de solucionar la ética informática?" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">¿Qué problemas trata de solucionar la ética informática?</a>
+    
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-purple w3-margin-right" onclick="w3_open()">?</a>
+  <span><a href="https://picasion.com/gl/ir23/"><img src="https://i.picasion.com/gl/92/ir23.gif" width="272" height="43" border="0" alt="https://picasion.com/gl/ir23/" /></a><br /><a href="https://picasion.com/gl/ir23/"></a></span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="¿Sabías que?">
+<h1 class="w3-jumbo"><b><font color= "FFFFFF">Más Allá Del Código</b></h1> 
+    <hr style="width:700px;border:5px solid aqua" class="w3-round">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>¿Sabías que?</b></h1>
+<h4><font color= "FFFFFF">La ética informática es de gran relevancia puesto que vivimos en un mundo globalizado en el que predomina el uso de ordenadores, la tecnología y el exceso de información digital, haciendo necesario que el mundo se deba regir por ciertos valores éticos ante los recursos informáticos.</font></h4>
+  </div>
+  
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+     <img src="https://umaeeredes.files.wordpress.com/2014/11/postetica.jpg" alt="ética informática" style=center width="350" height="333" onclick="onClick(this)">
+  </div>
+ <iframe  width="360" height="215" src="https://www.youtube.com/embed/PzrDlLgJ5bA?si=5TDH2fVlZ6V77OH2"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- ¿Qué es la ética informática? -->
+  <div class="w3-container" id="¿Qué es la ética informática?" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>¿Qué es la ética informática?</b></h1>
+    <hr style="width:600px;border:5px solid aqua" class="w3-round">
+   <h4> <p>Son las directrices que dictan cómo debemos comportarnos al utilizar los ordenadores y la tecnología. Estas directrices ayudan a garantizar que usamos la tecnología de forma responsable y segura, sin dañar a los demás ni infringir sus derechos.</p></h4>
+    
+<h4><p>La ética informática surge precisamente ante la necesidad de establecer un código de comportamiento ante problemas como el robo de información, el uso inadecuado de los datos o incluso la manipulación de los usuarios.
+
+Ante casos como el de Cambridge Analytica (la cual utilizó información de los usuarios de Facebook para generar campañas que moldearan la opinión de los usuarios en el mundo digital) o el de Cultura Colectiva (el cual tenía información de los usuarios en expuesta en un repositorio público), han generado que la discusión de la ética informática cada vez tenga más relevancia para las empresas y para los individuos.</p></h4>
+  </div>
+   
+  
+  <!-- Objetivos -->
+  <div class="w3-container" id="Objetivos" style="margin-top:35px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Objetivos.</b></h1>
+    <hr style="width:600px;border:5px solid aqua" class="w3-round">
+ <h4>  <p>-Descubrir dilemas éticos.</p><h4>
+<h4><p>-Determinar la medida en que estos dilemas son creados por la tecnología.</p><h4>
+<h4><p>-Formular principios de actuación para hacer frente a las nuevas actividades que provoca la informática y, en las que no se perciben con claridad sus líneas de actuación.</p><h4>
+<h4><p>-Aplicar la teoría ética para esclarecer los dilemas éticos.</p><h4>
+  </div>
+    
+
+  <!-- Los diez mandamientos -->
+  <div class="w3-container" id="Los diez mandamientos" style="margin-top:35px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Los diez mandamientos.</b></h1>
+    <hr style="width:600px;border:5px solid aqua" class="w3-round">
+ <h4><p>Dentro ya de la ética computacional, podemos encontrar un documento “estandarizado”, desarrollado en 1992 por Ramón Barquín, integrante del Instituto de Ética Informática. Este documento se utiliza normalmente como base de la ética computacional.</p><h4>
+<h4><p><b>Estos “mandamientos” son los siguientes</b>:</p><h4>
+
+<h4><p>-No usarás una computadora para dañar a otras personas.</p><h4>
+<h4><p>-No interferirás con el trabajo en computadora de otras personas.</p><h4>
+<h4><p>-No te inmiscuirás en los archivos informáticos de otras personas.</p><h4>
+<h4><p>-No usarás una computadora para robar.</p><h4>
+<h4><p>-No utilizarás un ordenador para dar falso testimonio.</p><h4>
+<h4><p>-No copiarás o utilizarás software registrado por el que no hayas pagado.</p><h4>
+<h4><p>-No utilizarás los recursos informáticos de otras personas sin autorización o compensación adecuada.</p><h4>
+<h4><p>-No te apropiarás de la producción intelectual de otras personas.</p><h4>
+<h4><p>-Piensa en las consecuencias sociales del programa que estés escribiendo o del sistema que estés diseñando.</p><h4>
+<h4><p>-Utiliza una computadora de manera que se garantice siempre la consideración y el respeto para tus semejantes.</p><h4>
+<h4><p>Si todos estos mandamientos se cumplieran a rajatabla, probablemente no necesitaríamos la ética computacional. Pero, consciente o inconscientemente, incumplimos alguna de estas claves, y eso es lo que hace precisamente indispensable el control de la actuación en el campo de la informática.</p><h4>
+  </div>
+  
+ <img src="https://cdn.goconqr.com/uploads/slide_property/image/552013/desktop_8c21336d-839d-4bcf-b9d3-ce3f21a37fb9.gif"style=left width="350" height="300">
+ 
+     <img src="https://media.informabtl.com/wp-content/uploads/2018/10/bigstock-Smiling-Database-Administrator-250085284-e1539728064958.jpg"  width="360" height="215" onclick="onClick(this)">
+     
+  <!-- Ventajas -->
+  <div class="w3-container" id="Ventajas" style="margin-top:35px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Ventajas.</b></h1>
+    <hr style="width:600px;border:5px solid aqua" class="w3-round">
+  <h4>  <p>-La Internet te brinda acceso inmediato a prácticamente todo el conocimiento recabado por la raza humana durante la historia de su civilización, y esto a una módica tarifa mensual (o por hora si lo usas en un cibercafé).</p><h4>
+
+<h4><p>-Facebook, Hi5, blogs, messengers, chats, e-mails, Twitter, etc, sólo son algunas de las herramientas que el Internet nos ofrece para comunicarnos con otras personas, hacer amigos, contactos, y hasta parejas en potencia.</p><h4>
+ </div>   
+  
+  <!-- Desventajas -->
+  <div class="w3-container" id="Desventajas" style="margin-top:35px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Desventajas.</b></h1>
+    <hr style="width:600px;border:5px solid aqua" class="w3-round">
+   <h4> <p>-Muchas personas infringen los derechos de autor al verse tentadas por tanta información y terminan copiando y pegando textos para después presentarlos como suyos. Esto promueve la holgazanería y la deshonestidad.</p><h4>
+  <h4>  <p>-Muchos niños son engañados diariamente por personas con intenciones macabras. Pedófilos, asesinos y adoradores del diablo frecuentan los chats de adolescentes en busca de víctimas para saciar sus más oscuros deseos.</p> <h4>
+ </div> 
+  
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/mIuJt-mqhlY?si=UqqScAg1ViI0Zsac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+  
+  <!-- ¿Qué problemas trata de solucionar la ética informática? -->
+  <div class="w3-container" id="¿Qué problemas trata de solucionar la ética informática?" style="margin-top:35px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>¿Qué problemas trata de solucionar la ética informática?</b></h1>
+    <hr style="width:600px;border:5px solid aqua" class="w3-round">
+  <h4>  <p><b>Algunos de los problemas derivados del uso de la tecnología pueden ser</b>:</p><h4>
+<h4><p>Abusos de propiedad intelectual.</p><h4>
+<h4><p>Acceso a la información, ya sea libre o restringida.</p><h4>
+<h4><p>Censura.</p><h4>
+<h4><p>Uso de información de instituciones públicas.</p><h4>
+<h4><p>Confidencialidad e integridad de los datos.</p><h4>
+<h4><p>Flujo internacional de información.</p>  <h4> 
+  </div>   
+   
+<audio 
+class="wp-audio-shortcode" id="audio-155-1" preload="none" style="width: 100%;" controls autoplay loops="controls autoplay  loops>"><source type="audio/mpeg" src="https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2019/09/jelsonic-saying-goodbye-piano.mp3?_=1" /><a href="https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2019/09/jelsonic-saying-goodbye-piano.mp3">https://lamusicagratis.com/wp-content/uploads/woocommerce_uploads/2019/09/jelsonic-saying-goodbye-piano.mp3</a></audio>
+</div>
+
+<marquee style="background-color:black;width:700px;border:8000px;direction:left">
+“Un programador que escriba un código limpio, entiende perfectamente el problema antes de escribir el código”.
+</marquee>
+
+ <!-- Enlaces -->
+  <div class="w3-container" id="Enlaces" style="margin-top:25px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Enlaces</b></h1>
+    <hr style="width:200px;border:5px solid aqua" class="w3-round">
+</div>
+<div><a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGBFGVnZNM&#x2F;BAdbG2-1ZSoXcqcjG4QQ7A&#x2F;view?utm_content=DAGBFGVnZNM&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">canva/La ética informática</a> </div>
+
+<div><a href="https://prezi.com/view/G3nZnjtGj1uXsSYcd5SH/" target="_blank" rel="noopener">prezi/Datos curiosos</a> </div>
+
+<div><a href="https://www.powtoon.com/online-presentation/bIs9mbhy5Ob/?mode=movie&published_from=studio#/" target="_blank" rel="noopener">powtoon/5 tips para cumplir la ética informática</a> </div>
+
+<div><a href="https://www.smore.com/n/tpm5a-tica-inform-tica" target="_blank" rel="noopener">smore/Navegando los dilemas éticos en la era digital</a> </div>
+<div><a href="https://www.euroinnova.pa/blog/que-es-la-etica-informatica" target="_blank" rel="noopener">ética informática</a> </div>
+<div><a href="http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S1315-99842006000400004#:~:text=Seg%C3%BAn%20Moor%20(1985)%20la%20%C3%A9tica,seguridad%20o%20la%20autorrealizaci%C3%B3n%20personal%2C" target="_blank" rel="noopener">sociedad de la ética informática</a> </div>
+
+  <!-- Comentarios -->
+  <div class="w3-container" id="Comentarios/o sugerencias" style="margin-top:25px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Comentarios/o sugerencias</b></h1>
+    <hr style="width:200px;border:5px solid aqua" class="w3-round">
+</div>
+<h4><a href="mailto:cybernews12a@gmail.com"> Compártenos tus dudas y sugerencias"mailto:cybernews12a@gmail.com" </a><h4>
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-purple w3-margin-bottom">Send Message</button>
+    </form>  
+  </div>
+  
+<img src="https://res.cloudinary.com/dcgqkgxva/image/upload/v1712633070/AVATARWEBMASTER_o2erlh.jpg"  width="250" height="200" >
+<img src="https://res.cloudinary.com/dac07h76o/image/upload/v1712693974/MicrosoftTeams-image_jwmtpi.jpg"  width="250" height="200" >
+<img src="https://res.cloudinary.com/dac07h76o/image/upload/v1712695686/MicrosoftTeams-image_1_uddoph.jpg"  width="250" height="200" >
+
+<!-- End page content -->
+</div>
+<!-- comienzo del código de cursor para el blog o página web -->
+<style type="text/css">* {cursor: url(https://cur.cursors-4u.net/cursors/cur-1/cur1.ani), url(https://cur.cursors-4u.net/cursors/cur-1/cur1.png), auto !important;}</style><script type="text/JavaScript" src="https://acortar.org/gen-js"></script>
+<!-- final del código de cursor para el blog o página web -->
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">WebMasters: <a target="_blank" class="w3-hover-opacity"> Caballero, Carlos / Cabrera, Helen / Vargas, Katelyn </a></p></div>
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+</body>
+</html>
+ 
